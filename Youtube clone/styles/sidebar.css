@@ -1,0 +1,32 @@
+.side{
+  position: fixed;
+  top: 55px;
+  left: 0px; 
+  bottom: 0px;
+  width: 72px;
+  z-index: 200;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sidebar-button{
+  height: 74px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sidebar-button:hover{
+  background-color: rgb(231, 231, 231);
+}
+
+.sidebar-button img{
+  height: 25px; 
+  margin-bottom: 4px;
+}
+
+.sidebar-button div{
+  font-family: Roboto;
+  font-size: 10px;
+}
